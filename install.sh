@@ -128,12 +128,16 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 {
+#echo "============================= Adding keys ============================"
+#curl -fsSL http://apt.pop-os.org/proprietary/dists/bionic/Release.gpg | apt-key add -
+
 echo "========================= Adding repositories ========================"
 add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse"
 add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse"
 add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ bionic-security main restricted universe multiverse"
 add-apt-repository "deb http://us.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse"
-add-apt-repository "deb http://apt.pop-os.org/proprietary bionic main"
+#add-apt-repository "deb http://apt.pop-os.org/proprietary bionic main"
+add-apt-repository ppa:system76/pop
 echo "======================= Done Adding repositories ======================"
 
 #apt-get update
