@@ -102,7 +102,7 @@ declare -a MY_PACKAGES=(
 install_package() {
     PACKAGE_NAME=$1
     echo "====================== Installing $PACKAGE_NAME ======================"
-    apt-get intall -y $PACKAGE_NAME
+    apt-get install -y $PACKAGE_NAME
     echo "=================== Done Installing $PACKAGE_NAME ===================="
     
 }
@@ -196,4 +196,4 @@ echo "Next, install dropbox from the website"
 
 echo "And then, install ohmyzsh, with this command"
 echo "sh -c \"\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
-} >> LOGFILE 2>&1
+} >> $LOGFILE 2>&1
