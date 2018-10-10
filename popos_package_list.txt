@@ -1,0 +1,26 @@
+ii  libnvidia-cfg1-396:amd64                         396.24-0ubuntu1~pop1                amd64        NVIDIA binary OpenGL/GLX configuration library
+ii  libnvidia-common-396                             396.24-0ubuntu1~pop1                all          Shared files used by the NVIDIA libraries
+ii  libnvidia-compute-396:amd64                      396.24-0ubuntu1~pop1                amd64        NVIDIA libcompute package
+ii  libnvidia-compute-396:i386                       396.24-0ubuntu1~pop1                i386         NVIDIA libcompute package
+ii  libnvidia-decode-396:amd64                       396.24-0ubuntu1~pop1                amd64        NVIDIA Video Decoding runtime libraries
+ii  libnvidia-decode-396:i386                        396.24-0ubuntu1~pop1                i386         NVIDIA Video Decoding runtime libraries
+ii  libnvidia-encode-396:amd64                       396.24-0ubuntu1~pop1                amd64        NVENC Video Encoding runtime library
+ii  libnvidia-encode-396:i386                        396.24-0ubuntu1~pop1                i386         NVENC Video Encoding runtime library
+ii  libnvidia-fbc1-396:amd64                         396.24-0ubuntu1~pop1                amd64        NVIDIA OpenGL-based Framebuffer Capture runtime library
+ii  libnvidia-fbc1-396:i386                          396.24-0ubuntu1~pop1                i386         NVIDIA OpenGL-based Framebuffer Capture runtime library
+ii  libnvidia-gl-396:amd64                           396.24-0ubuntu1~pop1                amd64        NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
+ii  libnvidia-gl-396:i386                            396.24-0ubuntu1~pop1                i386         NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
+ii  libnvidia-ifr1-396:amd64                         396.24-0ubuntu1~pop1                amd64        NVIDIA OpenGL-based Inband Frame Readback runtime library
+ii  libnvidia-ifr1-396:i386                          396.24-0ubuntu1~pop1                i386         NVIDIA OpenGL-based Inband Frame Readback runtime library
+ii  nvidia-compute-utils-396                         396.24-0ubuntu1~pop1                amd64        NVIDIA compute utilities
+ii  nvidia-dkms-396                                  396.24-0ubuntu1~pop1                amd64        NVIDIA DKMS package
+ii  nvidia-driver-390                                396.24-0ubuntu1~pop1                amd64        Transitional package for nvidia-driver-396
+ii  nvidia-driver-396                                396.24-0ubuntu1~pop1                amd64        NVIDIA driver metapackage
+ii  nvidia-kernel-common-396                         396.24-0ubuntu1~pop1                amd64        Shared files used with the kernel module
+ii  nvidia-kernel-source-396                         396.24-0ubuntu1~pop1                amd64        NVIDIA kernel source package
+ii  nvidia-settings                                  390.42-0ubuntu1                     amd64        Tool for configuring the NVIDIA graphics driver
+ii  nvidia-utils-396                                 396.24-0ubuntu1~pop1                amd64        NVIDIA driver support binaries
+ii  xserver-xorg-video-nvidia-396
+
+
+ii system76-power                                   0.1.2~1536938361~18.04~e5d4d99      amd64        System76 Power Management

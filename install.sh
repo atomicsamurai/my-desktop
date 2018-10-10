@@ -13,15 +13,12 @@ declare -a MY_PACKAGES=(
 "mesa-utils"
 "mesa-utils-extra"
 "xorg"
-"#xserver-xorg"
-"#x11-xserver-utils"
 "ubuntu-drivers-common"
 "fonts-ubuntu"
 "lxappearance"
 "gtk-chtheme"
 "qt4-qtconfig"
 "slim"
-"wicd"
 "zsh"
 "rxvt-unicode"
 "scrot"
@@ -40,7 +37,6 @@ declare -a MY_PACKAGES=(
 "mosquitto-clients"
 "pavucontrol"
 "aptitude"
-"wicd-curses"
 "htop"
 "qbittorrent"
 "thunar"
@@ -80,6 +76,25 @@ declare -a MY_PACKAGES=(
 "libnotify-dev"
 "libxml2:i386"
 "libpulse-dev"
+"meson"
+"ninja-build"
+"pkg-config"
+"parallel"
+"ruby-sass"
+"sassc"
+"optipng"
+"inkscape"
+"libgtk-3-dev"
+"libgdk-pixbuf2.0-dev"
+"libglib2.0-dev"
+"libglib2.0-bin"
+"libxml2-utils"
+"librsvg2-dev"
+"gnome-themes-standard"
+"gtk2-engines-murrine"
+"gtk2-engines-pixbuf"
+"fonts-roboto-hinted"
+"fonts-noto-hinted"
 )
 
 # system-config-printer-gnome
@@ -185,15 +200,18 @@ mkdir -p ~/work/personal
 cd ~/work/personal/
 git clone https://github.com/tliron/install-gnome-themes
 cd install-gnome-themes
-./install-requirements-debian
 ./install-gnome-themes
 echo "========================== Done Installing themes ========================="
 
 # dropbox
-echo "Next, install dropbox from the website"
+echo "Next steps"
+echo "1) install dropbox from its website."
 #sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 1C61A2656FB57B7E4DE0F4C1FC918B335044912E
 #sudo sh -c 'echo "deb http://linux.dropbox.com/ubuntu $(grep '^DISTRIB_CODENAME=' /etc/lsb-release | cut -f2 -d=) main " >> /etc/apt/sources.list.d/dropbox.list'
 
-echo "And then, install ohmyzsh, with this command"
+echo "2) Install wicd and wicd clients:"
+echo "sudo apt install -y wicd wicd-curses"
+
+echo "3) Install ohmyzsh:"
 echo "sh -c \"\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
 } >> $LOGFILE 2>&1
