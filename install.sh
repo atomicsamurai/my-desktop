@@ -218,4 +218,6 @@ echo "sudo apt install -y wicd wicd-curses"
 
 echo "3) Install ohmyzsh:"
 echo "sh -c \"\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\""
+
+echo "4) Still todo: dotfiles and scripts"
 } >> $LOGFILE 2>&1
