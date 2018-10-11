@@ -24,3 +24,6 @@ ii  xserver-xorg-video-nvidia-396
 
 
 ii system76-power                                   0.1.2~1536938361~18.04~e5d4d99      amd64        System76 Power Management
+
+kernel parameters:
+nvidia-drm.modeset=1 acpi_rev_override=1 acpi_osi=Linux pcie_port_pm=of
