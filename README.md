@@ -1,5 +1,5 @@
 # my-desktop
-This is my ubuntu+i3 desktop setup
+This is my Manjaro-i3 desktop setup
 
 ## .config
 My "~/.config/" directory
@@ -112,9 +112,7 @@ exec i3
 
 Thats it!!!
 
-Here are my results.
-
-First, my system specs:
+My system specs:
 
 ```
 ██████████████████  ████████   sandeepc@sandxps 
@@ -136,6 +134,6 @@ First, my system specs:
                                Memory: 1476MiB / 15810MiB
 ```
 
-When running `unigine-valley` benchmark on "Extreme 3D" preset, using `nvidia-xrun` is [here](http://htmlpreview.github.com/?https://github.com/sandman0/my-desktop/blob/master/Unigine_Valley_Benchmark_1.0_20181016_1217.html).
+Result of running `unigine-valley` benchmark on "Extreme 3D" preset, using `nvidia-xrun` is [here](http://htmlpreview.github.com/?https://github.com/sandman0/my-desktop/blob/master/Unigine_Valley_Benchmark_1.0_20181016_1217.html).
 
 
