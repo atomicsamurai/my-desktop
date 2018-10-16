@@ -103,7 +103,7 @@ w /sys/bus/pci/devices/0000:01:00.0/power/control - - - - auto
 This is the equivalent of doing `sudo tee /sys/bus/pci/devices/0000:00:01.0/power/control <<<auto` automatically at every boot.
 
 ### Install nvidia-xrun
-Install `michelesr's` fork of nvidia-xrun, using the PKGBUILD in the git repository.
+Install `michelesr's` [fork](https://github.com/michelesr/nvidia-xrun) of nvidia-xrun, using the PKGBUILD in the git repository.
 I also created a `.nvidia-xinitrc` with the content
 
 ```
